@@ -1,0 +1,135 @@
+/* @font-face {
+  font-family: GothamSSm-Bold_Web;
+  src: url(../fonts/GothamSSm-Bold_Web.otf);
+}
+
+@font-face {
+  font-family: GothamSSm-Book_Web;
+  src: url(../fonts/GothamSSm-Book_Web.otf);
+}
+
+@font-face {
+  font-family: GothamSSm-Light_Web;
+  src: url(../fonts/GothamSSm-Light_Web.otf);
+}
+
+@font-face {
+  font-family: GothamSSm-Medium_Web;
+  src: url(../fonts/GothamSSm-Medium_Web.otf);
+}
+
+@font-face {
+  font-family: GothamSSm-XLight_Web;
+  src: url(../fonts/GothamSSm-XLight_Web.otf);
+} */
+
+@font-face{
+  font-family: gotham-light;
+  src: url(../Fonts/GothamSSm-Light_Web.otf);
+  }
+  @font-face {
+  font-family: gotham-med;
+  src: url(../Fonts/GothamSSm-Medium_Web.otf);
+  }
+  @font-face {
+  font-family: gotham-bold;
+  src: url(../Fonts/GothamSSm-Bold_Web.otf);
+  }
+  @font-face {
+  font-family: gotham-xlight;
+  src: url(../Fonts/GothamSSm-XLight_Web.otf);
+  }
+  @font-face {
+  font-family: gotham-book;
+  src: url(../Fonts/GothamSSm-Book_Web.otf);
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.svg_logo {
+  margin-left: 48px;
+  max-width: 120px;
+  min-height: 54px;
+}
+
+body {
+  color: #fff;
+  /* font-family: GothamSSm-XLight_Web , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: gotham-bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background: url(../img/Model-3-Main-Hero-Desktop-LHD.jpg) center center/cover;
+  height: 100vh;
+}
+
+/* navigatino bar style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 8px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.right-nav-ul {
+  padding: 0 0 32px 0;
+}
+
+/* navigation bar logo */
+nav.svg_logo {
+  margin-right: auto;
+}
+
+/* navigation bar middle nav */
+nav.middle-nav {
+  position: absolute;
+}
+
+/* navigation bar rigth nav */
+nav.right-nav {
+  margin-left: auto;
+}
+
+/* header content */
+.header-h1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 16vh;
+  padding: 0 24px;
+}
+
+/* --------------second page------------------ */
+
+section {
+  display: flex;
+}
+
+section img {
+  margin-top: 96vh;
+  width: 82.5%;
+  height: 100vh;
+}
