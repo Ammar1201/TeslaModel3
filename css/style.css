@@ -60,7 +60,7 @@
 body {
   color: #fff;
   /* font-family: GothamSSm-XLight_Web , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-  font-family: gotham-bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: gotham-med, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -92,12 +92,17 @@ nav ul li a {
   margin: 0 8px;
   padding: 4px 8px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .right-nav-ul {
-  padding: 0 0 32px 0;
+  padding-right: 32px;
 }
+
+/* .middle-nav-ul {
+  display: flex;
+  justify-content: center;
+} */
 
 /* navigation bar logo */
 nav.svg_logo {
@@ -111,17 +116,79 @@ nav.middle-nav {
 
 /* navigation bar rigth nav */
 nav.right-nav {
-  margin-left: auto;
+  margin-right: 100px;
 }
 
 /* header content */
 .header-h1 {
   text-align: center;
   margin: auto;
-  margin-top: 16vh;
+  margin-top: 12vh;
   padding: 0 24px;
+  width: 100%;
+  font-size: 40px;
+  font-weight: 500;
 }
 
+/* header content - section */
+
+.empty-div {
+  height: 70vh;
+}
+
+section {
+  /* height: 74vh; */
+  margin: 0 36%;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.speed {
+  font-size: 28px;
+  margin-left: 8px;
+  padding: 4px 24px;
+}
+
+.speed2 {
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+.range {
+  font-size: 28px;
+  margin-left: 8px;
+  padding: 4px 24px;
+}
+
+.range2 {
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+.awd {
+  font-size: 28px;
+  margin-left: 8px;
+  padding: 4px 24px;
+}
+
+.awd2 {
+  font-size: 12px;
+  padding-top: 8px;
+}
+
+section a {
+  font-size: 14px;
+  font-weight: 400;
+  width: 204px;
+  height: 40px;
+  text-align: center;
+  margin-left: 8px;
+  padding: 8px 24px;
+  text-decoration: none;
+  color: #fff;
+  border: #fff solid 1px;
+}
 /* --------------second page------------------ */
 
 section {
