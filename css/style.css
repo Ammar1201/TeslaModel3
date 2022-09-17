@@ -410,3 +410,78 @@ span.light-header {
   background: url('../img/Model-3-Performance-Hero-Desktop-LHD-3rd-page.jpg') no-repeat center center/cover;
   height: 80vh;
 }
+
+/* .empty {
+  height: 90vh;
+  display: inline-block;
+} */
+
+.specs {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.first-spec {
+  /* font-size: 28px; */
+  margin-bottom: 5.5vh;
+  width: 12%;
+  height: 154px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.first-spec p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: gotham-book;
+}
+
+.second-spec {
+  /* font-size: 28px; */
+  margin-bottom: 5vh;
+  width: 12%;
+  height: 154px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.second-spec p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: gotham-book;
+}
+
+.third-spec {
+  /* font-size: 28px; */
+  margin-bottom: 4.5vh;
+  width: 12%;
+  height: 154px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.third-spec p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: gotham-book;
+}
+
+.third-page2 {
+  background: #fff;
+  height: 20vh;
+}
