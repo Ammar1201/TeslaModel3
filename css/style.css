@@ -68,7 +68,7 @@ body::-webkit-scrollbar {
 
 /* --------------first page------------------ */
 header {
-  background: url(../img/Model-3-Main-Hero-Desktop-LHD.jpg) center center/cover;
+  background: url('../img/Model-3-Main-Hero-Desktop-LHD.jpg') center center/cover;
   height: 100vh;
 }
 
