@@ -131,12 +131,11 @@ nav.right-nav {
 }
 
 /* header content - section */
-
 .empty-div {
   height: 70vh;
 }
 
-section {
+.first-page {
   /* height: 74vh; */
   margin: 0 36%;
   display: flex;
@@ -153,6 +152,38 @@ section {
 .speed2 {
   font-size: 12px;
   padding-top: 8px;
+}
+
+.speedometer {
+  position: relative;
+  display: block;
+  margin-top: 8px;
+}
+
+.speedometer-inner-circle {
+  position: absolute;
+  left: 6.5px;
+  top: 2.6px;
+  width: 30px;
+  height: 15px;
+  opacity: 0.45;
+}
+
+.speedometer-outer-circle {
+  position: absolute;
+  left: 8px;
+  top: 0;
+  width: 40px;
+  height: 21px;
+}
+
+.speedometer-needle {
+  position: absolute;
+  left: 32px;
+  top: 12px;
+  width: 4px;
+  height: 16px;
+  rotate: 90deg;
 }
 
 .range {
@@ -177,13 +208,14 @@ section {
   padding-top: 8px;
 }
 
-section a {
+.first-page a {
   font-size: 14px;
   font-weight: 400;
   width: 204px;
   height: 40px;
   text-align: center;
   margin-left: 8px;
+  margin-top: 12px;
   padding: 8px 24px;
   text-decoration: none;
   color: #fff;
@@ -191,12 +223,190 @@ section a {
 }
 /* --------------second page------------------ */
 
-section {
+/* .second-page {
+  display: flex;
+  position: relative;
+  width: 100%;
+  color: #333;
+}
+
+.second-page img {
+  margin-top: 96vh;
+  width: 82.5%;
+  object-fit: cover;
+  height: 100vh;
+}
+
+.second-page h4 {
+  position: absolute;
+  right: 400px;
+  top: 5px;
+}
+
+.second-page h3 {
+  position: absolute;
+  right: 200px;
+  top: 20px;
+} */
+
+.primary {
+  /* border: 2px solid orange; */
+  height: 54px;
+  width: 120px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 30px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary {
+  border: 3px solid white;
+  width: 196px;
+  height: 34px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-page {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  top: 0;
+}
+
+.second-page-left {
+  width: 85vw;
+  position: relative;
+  background: url('../img/model-3-hero-a-desktop.jpg') no-repeat center center/contain;
+}
+
+.second-page-right {
+  box-sizing: border-box;
+  color: #171a20;
+  padding: 42px 28px 20px 10px;
+  width: 15vw;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-between;
+}
+
+span.light-header {
+  padding-left: 0;
+  margin-left: 0;
+  font-family: monospace;
+  line-height: 1.4;
+  font-weight: 100;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.second-page-right h3.header {
+  padding-left: 0;
+  margin-left: 0;
+  font-size: 28px;
+  margin-top: 0;
+  font-weight: 300;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+
+.second-page-right p {
+  padding-left: 0;
+  margin-left: 0;
+  font-family: gotham-book;
+  margin: 12px auto 0;
+  font-size: 14px;
+  line-height: 1.2rem;
+  font-weight: 300;
+}
+
+.second-page-right p:first-child {
+  padding-top: 0px;
+  margin-top: 0;
+}
+
+.second-page-right-bottom {
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-page-learnmore-link {
+  width: 150px;
   display: flex;
 }
 
-section img {
-  margin-top: 96vh;
-  width: 82.5%;
-  height: 100vh;
+.plus-circle {
+  width: 40px;
+  height: 40px;
+  background: url('../img/plus-circle-white.png') no-repeat center center/contain;
+}
+
+.second-page-learnmore-link:hover .plus-circle {
+  background: url('../img/plus-circle-black.png') no-repeat center center/contain;
+}
+
+.learnmore-link {
+  width: 100px;
+  height: 40px;
+}
+
+.learnmore-link a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #171a20;
+  display: block;
+  text-align: center;
+  padding-top: 9px;
+}
+
+.second-page-ordernow-link {
+  color: #171a20;
+  border: 3px solid #171a20;
+  width: 196px;
+  height: 34px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.second-page-ordernow-link a {
+  color: #171a20;
+  width: 204px;
+  height: 40px;
+  padding-top: 3px;
+  padding-left: 30px;
+  text-decoration: none;
+  /* padding-top: 9px;
+  padding-bottom: 9px; */
+  /* position: relative; */
+  /* left: -30px;
+  top: 0px; */
+
+}
+
+.second-page-ordernow-link .primary {
+  border: none;
+}
+
+.second-page-ordernow-link .primary a:hover {
+  color: white;
+}
+
+.second-page-ordernow-link:hover,
+.second-page-ordernow-link a:hover {
+  color: white;
+  background-color: #171a20;
+}
+
+/* --------------third page------------------ */
+.third-page {
+  background: url('../img/Model-3-Performance-Hero-Desktop-LHD-3rd-page.jpg') no-repeat center center/cover;
+  height: 80vh;
 }
