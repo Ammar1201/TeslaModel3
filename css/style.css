@@ -98,11 +98,6 @@ nav ul li a {
   padding-right: 32px;
 }
 
-/* .middle-nav-ul {
-  display: flex;
-  justify-content: center;
-} */
-
 /* navigation bar logo */
 nav.svg_logo {
   margin-right: auto;
@@ -439,7 +434,74 @@ span.light-header {
   font-family: gotham-book;
 }
 
-.third-page2 {
+.third-page-bottom {
   background: #fff;
   height: 20vh;
+}
+
+.grid {
+  color: #171a20;
+  margin: auto;
+  margin-top: 50px;
+  width: 44%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.left-content {
+  grid-column: 1 / span 4;
+}
+
+.right-content {
+  grid-column: 5 / span 6;
+}
+
+.right-content span {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: gotham-light;
+  line-height: 20px;
+}
+
+.per{
+  font-size: 17px;
+  font-weight: 300;
+  font-family: gotham-xlight;
+}
+
+.quick {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.third-page-right-bottom {
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.third-page-learnmore-link {
+  width: 150px;
+  display: flex;
+}
+
+.third-page-ordernow-link {
+  color: #171a20;
+  border: 3px solid #171a20;
+  width: 196px;
+  height: 34px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.third-page-ordernow-link a {
+  color: #171a20;
+  width: 204px;
+  height: 40px;
+  padding-top: 20px;
+  padding-left: 50px;
+  text-decoration: none;
+
 }
