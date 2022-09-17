@@ -66,12 +66,12 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+/* --------------first page------------------ */
 header {
   background: url(../img/Model-3-Main-Hero-Desktop-LHD.jpg) center center/cover;
   height: 100vh;
 }
 
-/* navigatino bar style */
 nav {
   display: flex;
   justify-content: space-between;
@@ -98,22 +98,18 @@ nav ul li a {
   padding-right: 32px;
 }
 
-/* navigation bar logo */
 nav.svg_logo {
   margin-right: auto;
 }
 
-/* navigation bar middle nav */
 nav.middle-nav {
   position: absolute;
 }
 
-/* navigation bar rigth nav */
 nav.right-nav {
   margin-right: 100px;
 }
 
-/* header content */
 .header-h1 {
   text-align: center;
   margin: auto;
@@ -124,7 +120,6 @@ nav.right-nav {
   font-weight: 500;
 }
 
-/* header content - section */
 .empty-div {
   height: 70vh;
 }
@@ -506,3 +501,5 @@ span.light-header {
   text-decoration: none;
 
 }
+
+/* --------------media querries------------------ */
