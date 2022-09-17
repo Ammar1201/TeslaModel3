@@ -369,11 +369,16 @@ span.light-header {
 /* --------------third page------------------ */
 .third-page {
   background: url('../img/Model-3-Performance-Hero-Desktop-LHD-3rd-page.jpg') no-repeat center center/cover;
-  height: 80vh;
+  height: 84vh;
+}
+
+.third-page-bottom {
+  background: #fff;
+  height: 14vh;
 }
 
 .specs {
-  height: 80vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -434,15 +439,10 @@ span.light-header {
   font-family: gotham-book;
 }
 
-.third-page-bottom {
-  background: #fff;
-  height: 20vh;
-}
-
 .grid {
   color: #171a20;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   width: 44%;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -498,6 +498,7 @@ span.light-header {
 
 .third-page-ordernow-link a {
   color: #171a20;
+  font-size: 14px;
   width: 204px;
   height: 40px;
   padding-top: 20px;
